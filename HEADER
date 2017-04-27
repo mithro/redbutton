@@ -1,16 +1,16 @@
 
- +----------------------------+
- |                            |
- |        MOSI 5-|A|-4 GND    |
- |        MISO 6-|T|-3        |
- |         SCK 7-|8|-2        |== USB Connector
- |         VCC 8-|5|-1 RST    |
- |                            |
- |  MISO 1 2 VTG              |
- |   SCK 3 4 MOSI             |
- |   RST 5 6 GND              |== Power Connector
- |                            |
- +----------------------------+
+ +------------------------------+
+ |                              |
+ |        MOSI 5-|A|-4 GND      |
+ | Button MISO 6-|T|-3     LED  |
+ |    USB  SCK 7-|8|-2     USB  |== USB Connector
+ |         VCC 8-|5|-1 RST      |
+ |                              |
+ |  MISO 1 2 VTG                |
+ |   SCK 3 4 MOSI               |
+ |   RST 5 6 GND                |== Power Connector
+ |                              |
+ +------------------------------+
 
  * Pin 5 - PB0 = unused input (pulled high)
  * Pin 6 - PB1 = button input (pulled high)
